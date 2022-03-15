@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.title{
+	font-family: 'Yusei Magic';
+	font-weight: bold;
+	text-align: center;
+	background-color: darkblue;
+	padding: 0px 20px 0px 20px;
+	color: yellow;
+	width: 65%;
+}
+
+div.contentbox{
+	box-sizing:content-box;
+	width:250px;
+	height: 250px;
+	display:inline-block;
+	position:relative;
+}
+
+div.texto2{
+	display: inline;
+	position: relative;
+	bottom: 250.45px;
+	font-weight: bold;
+	left: 252.5px;
+	width: 50%;
+}
+.letritas{
+	background-color:black;
+	color:yellow;
+}
