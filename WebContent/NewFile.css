@@ -13,20 +13,29 @@
 div.contentbox{
 	box-sizing:content-box;
 	width:250px;
-	height: 250px;
+	height:250px;
 	display:inline-block;
 	position:relative;
 }
 
-div.texto2{
-	display: inline;
-	position: relative;
-	bottom: 250.45px;
-	font-weight: bold;
-	left: 252.5px;
-	width: 50%;
+.texto2{
+	display:inline-block;
+	position:relative;
+	font-weight:bold;
+	width:700px;
+	height:300px;
+	bottom:50px
 }
-.letritas{
-	background-color:black;
+
+.letras1{
 	color:yellow;
+    line-height:40px;
+    background-color:black;
+}
+
+.letras2{
+	background-color:#48C9B0;
+	color:white;
+	
+	
 }
