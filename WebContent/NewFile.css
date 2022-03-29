@@ -10,7 +10,7 @@
 	width: 65%;
 }
 
-div.contentbox{
+.contentbox{
 	box-sizing:content-box;
 	width:250px;
 	height:250px;
@@ -24,18 +24,28 @@ div.contentbox{
 	font-weight:bold;
 	width:700px;
 	height:300px;
-	bottom:50px
+	bottom:50px;
+	box-sizing:content-box;
 }
 
 .letras1{
 	color:yellow;
     line-height:40px;
     background-color:black;
+    margin:10px;
 }
 
 .letras2{
 	background-color:#48C9B0;
 	color:white;
-	
-	
 }
+
+.letras3{
+	font-family:'PottaOne';
+	font-weight: bold;
+}
+
+.letras4{
+	font-family:'Coda Caption';
+}
+
